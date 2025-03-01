@@ -2,9 +2,9 @@
 
 test('example', function () {
     // variable true
-    // $a = true;
+    $a = true;
     
     // variable false
-    $a = false;
+    // $a = false;
     expect($a)->toBeTrue();
 });
