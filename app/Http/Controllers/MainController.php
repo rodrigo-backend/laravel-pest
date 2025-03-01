@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    public function home(): string{   
-        return 'Hello World';
+    public function welcome(): string{   
+        return 'Hello World!';
     }
 }
